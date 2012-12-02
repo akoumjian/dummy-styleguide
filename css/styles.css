@@ -1,0 +1,35 @@
+/*
+
+(non-styleguide comments here)
+
+---
+section: 1.0
+
+description: Links for silly and less silly occasions
+
+div-class: 
+    party               : Wild and crazy class colors for container divs
+
+
+anchor-class:
+    silly-link          : The link you laugh at, not with
+    less-silly-link     : Can't take a joke
+
+
+template: |
+    <div class="{{div-class}}">
+        <a class="{{anchor-class}}">
+    </div>
+...
+
+(other non-styleguide comments go here)
+
+*/
+
+.party .silly-link {
+    color: blue;
+}
+
+.party .less-silly-link {
+    color: red;
+}
