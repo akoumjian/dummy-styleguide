@@ -33,3 +33,35 @@ template: |
 .party .less-silly-link {
     color: red;
 }
+
+
+/*
+---
+section: 2.0
+
+description: Link styles in the second section.
+
+div_class: 
+    second               : The second section.
+
+
+anchor_class:
+    not-funny-link          : Nothing is funny
+    even-more-not-funny-link     : Can't take a joke
+
+
+template: |
+    <div class="{{div_class}}">
+        <a class="{{anchor_class}}">My Special Link</a>
+    </div>
+...
+*/
+
+.second .not-funny-link {
+    color: green;
+}
+
+.second .even-more-not-funny-link {
+    color: purple;
+}
+
