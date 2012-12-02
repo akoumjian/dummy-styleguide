@@ -32,11 +32,15 @@ button_class:
     btn btn-small: A small button.
     btn btn-large: A large button.
     btn btn-large btn-primary: A large, primary button.
+    btn btn-large btn-bold: A large, bold button.
 
 template: |
     <button class="{{ button_class }}">Button text</button>
 ...
 */
+.btn-bold {
+    font-weight: bold;
+}
 
 
 /*
