@@ -43,13 +43,14 @@ button_class:
     blue-link: A blue module link.
 template: |
     <div class="module">
-        <a class="{{ button_class }}">Button</a>
+        <a class="btn {{ button_class }}">Button</a>
     </div>
 ...
 */
 .module {
     padding: 10px;
-    background: #ddd;
+    background: #eee;
+    border: solid 1px #ddd;
     border-radius: 5px;
 }
 .module .red-link { color: red; }
