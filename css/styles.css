@@ -60,12 +60,10 @@ template: |
 /*
 ---
 section: 2.0
-
-description: Link styles in the second section.
+description: Some form examples.
 
 div_class: 
     second               : The second section.
-
 
 anchor_class:
     not-funny-link          : Nothing is funny
@@ -73,9 +71,18 @@ anchor_class:
 
 
 template: |
-    <div class="{{div_class}}">
-        <a class="{{anchor_class}}">My Special Link</a>
-    </div>
+    <form>
+      <fieldset>
+        <legend>Legend</legend>
+        <label>Label name</label>
+        <input type="text" placeholder="Type something…">
+        <span class="help-block">Example block-level help text here.</span>
+        <label class="checkbox">
+          <input type="checkbox"> Check me out
+        </label>
+        <button type="submit" class="btn">Submit</button>
+      </fieldset>
+    </form>
 ...
 */
 
