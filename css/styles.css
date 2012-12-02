@@ -27,7 +27,11 @@ section: 1.2
 description: Button styles, FTW.
 
 button_class:
+    btn: A normal button.
+    btn btn-mini: A mini button.
+    btn btn-small: A small button.
     btn btn-large: A large button.
+    btn btn-large btn-primary: A large, primary button.
 
 template: |
     <button class="{{ button_class }}">Button text</button>
