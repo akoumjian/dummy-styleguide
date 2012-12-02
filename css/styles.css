@@ -34,6 +34,27 @@ template: |
     color: red;
 }
 
+/*
+---
+section: 1.1
+description: A concise example.
+button_class:
+    red-link: A red module link.
+    blue-link: A blue module link.
+template: |
+    <div class="module">
+        <a class="{{ button_class }}">Button</a>
+    </div>
+...
+*/
+.module {
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+.module .red-link { color: red; }
+.module .blue-link { color: blue; }
+
 
 /*
 ---
