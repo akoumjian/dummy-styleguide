@@ -1,40 +1,4 @@
 /*
-
-(non-styleguide comments here)
-
----
-section: 1.0
-
-description: Links for silly and less silly occasions
-
-div_class: 
-    party               : Wild and crazy class colors for container divs
-
-
-anchor_class:
-    silly-link          : The link you laugh at, not with
-    less-silly-link     : Can't take a joke
-
-
-template: |
-    <div class="{{div_class}}">
-        <a class="{{anchor_class}}">My Special Link</a>
-    </div>
-...
-
-(other non-styleguide comments go here)
-
-*/
-
-.party .silly-link {
-    color: blue;
-}
-
-.party .less-silly-link {
-    color: red;
-}
-
-/*
 ---
 section: 1.1
 description: A concise example.
@@ -59,6 +23,20 @@ template: |
 
 /*
 ---
+section: 1.2
+description: Button styles, FTW.
+
+button_class:
+    btn btn-large: A large button.
+
+template: |
+    <button class="{{ button_class }}">Button text</button>
+...
+*/
+
+
+/*
+---
 section: 2.0
 description: Some form examples.
 
@@ -76,5 +54,5 @@ template: |
 */
 
 .input-medium {
-    border-color: green;
+    border-color: red;
 }
