@@ -76,5 +76,5 @@ template: |
 */
 
 .input-medium {
-    color: green;
+    border-color: green;
 }
