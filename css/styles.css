@@ -75,11 +75,6 @@ template: |
 ...
 */
 
-.second .not-funny-link {
+.input-medium {
     color: green;
 }
-
-.second .even-more-not-funny-link {
-    color: purple;
-}
-
