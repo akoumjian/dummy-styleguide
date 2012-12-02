@@ -12,13 +12,13 @@ div_class:
 
 
 anchor_class:
-    silly_link          : The link you laugh at, not with
-    less_silly_link     : Can't take a joke
+    silly-link          : The link you laugh at, not with
+    less-silly-link     : Can't take a joke
 
 
 template: |
     <div class="{{div_class}}">
-        <a class="{{anchor_class}}">
+        <a class="{{anchor_class}}">My Special Link</a>
     </div>
 ...
 
@@ -26,10 +26,10 @@ template: |
 
 */
 
-.party .silly_link {
+.party .silly-link {
     color: blue;
 }
 
-.party .less_silly_link {
+.party .less-silly-link {
     color: red;
 }
