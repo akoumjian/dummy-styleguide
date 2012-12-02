@@ -62,27 +62,16 @@ template: |
 section: 2.0
 description: Some form examples.
 
-div_class: 
-    second               : The second section.
-
-anchor_class:
-    not-funny-link          : Nothing is funny
-    even-more-not-funny-link     : Can't take a joke
-
+input_class:
+    input-mini: A mini input
+    input-small: A small input
+    input-medium: A medium input
+    input-large: A large input
+    input-xlarge: An extra large input
+    input-xxlarge: An extra, extra large input
 
 template: |
-    <form>
-      <fieldset>
-        <legend>Legend</legend>
-        <label>Label name</label>
-        <input type="text" placeholder="Type something…">
-        <span class="help-block">Example block-level help text here.</span>
-        <label class="checkbox">
-          <input type="checkbox"> Check me out
-        </label>
-        <button type="submit" class="btn">Submit</button>
-      </fieldset>
-    </form>
+    <input class="{{ input_class }}" type="text" placeholder=".{{ input_class }}">
 ...
 */
 
