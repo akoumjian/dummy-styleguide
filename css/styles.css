@@ -7,18 +7,18 @@ section: 1.0
 
 description: Links for silly and less silly occasions
 
-div-class: 
+div_class: 
     party               : Wild and crazy class colors for container divs
 
 
-anchor-class:
-    silly-link          : The link you laugh at, not with
-    less-silly-link     : Can't take a joke
+anchor_class:
+    silly_link          : The link you laugh at, not with
+    less_silly_link     : Can't take a joke
 
 
 template: |
-    <div class="{{div-class}}">
-        <a class="{{anchor-class}}">
+    <div class="{{div_class}}">
+        <a class="{{anchor_class}}">
     </div>
 ...
 
@@ -26,10 +26,10 @@ template: |
 
 */
 
-.party .silly-link {
+.party .silly_link {
     color: blue;
 }
 
-.party .less-silly-link {
+.party .less_silly_link {
     color: red;
 }
